@@ -1,0 +1,32 @@
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #c1c4c7a1;
+}
+
+.toolbar .title {
+  margin: 0 16px;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.userIcon {
+  margin: 0 16px;
+  font-size: 1.5rem;
+}
+
+.loggedUser {
+  display: grid;
+  padding: 0px 10px;
+  justify-items: right;
+  font-weight: 600;
+}

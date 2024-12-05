@@ -1,0 +1,11 @@
+<div class="toolbar">
+  <span class="title">{{title}}</span>
+  <div class="spacer"></div>
+  <ng-container *ngIf="isLoggedIn">
+    <div class="loggedUser">
+        <span>{{username}}</span>
+        <span>{{role}}</span>
+    </div>
+    <span class="pi pi-user userIcon"></span>
+  </ng-container>
+</div>
